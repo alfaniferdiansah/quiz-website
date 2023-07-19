@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  background-image: url(./cover.jpeg);
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+ 
+}
+
+.quiz-container {
+  margin-right: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 600px;
+  overflow: hidden;
+
+}
+
+.quiz-header {
+  padding: 4rem;
+
+}
+
+h2 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+button {
+  background-color: rgb(255, 209, 123);
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-family: inherit;
+  padding: 1.3rem;
+}
+
+button:hover {
+  background-color: rgb(252, 165, 52);
+}
+
+button:focus {
+  outline: none;
+  background-color: red;
+}
+.hadiah {
+  color: white;
+  border: none;
+  background-color: #5e3370;
+  border-radius: 10px;
+}
+
+@media(max-width:450px){
+  body {
+    justify-content: center;
+    text-align: center;
+    height: 98vh;
+    padding: 0px 10px;
+  }
+  .quiz-container {
+    padding: 16px;
+    margin: auto;
+    text-align: left;
+    overflow: scroll;
+  }
+  .quiz-header{
+    padding: 0px;
+    font-size: 10px; 
+  }
+  h2 {
+    padding: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  button {
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
